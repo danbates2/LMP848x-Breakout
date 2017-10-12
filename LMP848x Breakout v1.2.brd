@@ -191,13 +191,13 @@ and JP9
 simultaneously.</text>
 <text x="41.0456" y="2.839775" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">OpenEnergyMonitor.org</text>
 <text x="29.703653125" y="30.421965625" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">v1.2 Oct 2017 by DB</text>
-<text x="14.720190625" y="33.7188" size="1.524" layer="22" font="vector" ratio="15" rot="MR180" align="center-left">LMP848x/MAX408x
+<text x="16.75839375" y="33.6769875" size="1.524" layer="22" font="vector" ratio="15" rot="MR180" align="center-left">LMP848x/MAX408x
 Shunt Monitor Breakout Board</text>
 <text x="29.481465625" y="14.010775" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">Open-Hardware</text>
 <text x="30.67276875" y="25.04265625" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">Designed in</text>
 <text x="30.599153125" y="23.10135625" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">North Wales</text>
 <text x="30.563565625" y="21.27375625" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">Made in UK</text>
-<wire x1="14.3525875" y1="31.023146875" x2="45.4449875" y2="31.023146875" width="0.3048" layer="22"/>
+<wire x1="16.443409375" y1="31.064959375" x2="47.535809375" y2="31.064959375" width="0.3048" layer="22"/>
 <text x="40.06794375" y="8.316365625" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">Technology that helps us
 live within ecological limits</text>
 <text x="15.4320875" y="13.0314625" size="0.889" layer="22" font="vector" ratio="15" rot="MR270">Lead free PCB
