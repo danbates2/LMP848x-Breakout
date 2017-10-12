@@ -1,0 +1,6 @@
+1.0 	initial design.
+1.1 	R1 and R2 positioned more safely to minimise DC line presence in GND plane.
+	Screw terminal GND connector thermals eliminated for better GND connection.
+1.2  	JP4 and JP5 and the 4 main input/output headers aligned to breadboard 		spacing. Operation notes changed, added note regarding voltage differential.
+	Vsense name changed to Vdiv. Jumper altered to feed Vdiv voltage to new 6 pin 	header at base of board. Added note regarding JP10 and SJ1. Relevant jumpers 	alighted to breadboard compatible grid.
+	Added holes for potential leaded capacitors for extra filtering.
