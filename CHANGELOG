@@ -5,3 +5,4 @@
 	Vsense name changed to Vdiv. Jumper altered to feed Vdiv voltage to new 6 pin 	header at base of board. Added note regarding JP10 and SJ1. Relevant jumpers 	alighted to breadboard compatible grid.
 	Added holes for potential leaded capacitors for extra filtering.
 1.3	Solder jumpers added in parallel to jumpers. General Minor alterations, clear 	indication of potential filtering capacitor locations.
+1.4	Addition of refA on 6way header. Rerouting of tracks for greater efficiency.

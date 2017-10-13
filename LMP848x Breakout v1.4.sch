@@ -10872,7 +10872,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 </class>
 </classes>
 <parts>
-<part name="LMP848X" library="LMP8481" deviceset="LMP8481" device="-H"/>
+<part name="LMP8481" library="LMP8481" deviceset="LMP8481" device="-H"/>
 <part name="SHUNT" library="EBW series shunt" deviceset="EBW_SERIES_15.2MM" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LOAD" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
@@ -10900,7 +10900,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <part name="GND" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="JP5" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1" value="Vdiv"/>
 <part name="SHUNT1" library="EBW series shunt" deviceset="EBW_SERIES_15.2MM" device=""/>
-<part name="X1" library="con-hirose" library_urn="urn:adsk.eagle:library:152" deviceset="MINI-USB-" device="UX60-MB-5ST" package3d_urn="urn:adsk.eagle:package:7266/1"/>
+<part name="X1" library="con-hirose" library_urn="urn:adsk.eagle:library:152" deviceset="MINI-USB-" device="UX60-MB-5ST" package3d_urn="urn:adsk.eagle:package:7266/1" value="MINI-USB-UX60-MB-5ST"/>
 <part name="SCREW1" library="con-weidmueller-sl35" library_urn="urn:adsk.eagle:library:199" deviceset="180-3" device="" package3d_urn="urn:adsk.eagle:package:11339/1"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
@@ -10920,7 +10920,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <plain>
 </plain>
 <instances>
-<instance part="LMP848X" gate="G$1" x="30.48" y="25.4" rot="R90"/>
+<instance part="LMP8481" gate="G$1" x="30.48" y="25.4" rot="R90"/>
 <instance part="SHUNT" gate="EBW_SERIES_SHUNT" x="0" y="17.78" rot="R90"/>
 <instance part="GND1" gate="1" x="33.02" y="5.08"/>
 <instance part="LOAD" gate="A" x="7.62" y="48.26"/>
@@ -10984,7 +10984,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <junction x="-2.54" y="30.48"/>
 <pinref part="SCREW1" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="23.876" x2="5.08" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="LMP848X" gate="G$1" pin="RSN"/>
+<pinref part="LMP8481" gate="G$1" pin="RSN"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <junction x="17.78" y="33.02"/>
@@ -11019,7 +11019,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="-2.54" x2="2.54" y2="10.16" width="0.1524" layer="91"/>
 <junction x="2.54" y="10.16"/>
-<pinref part="LMP848X" gate="G$1" pin="RSP"/>
+<pinref part="LMP8481" gate="G$1" pin="RSP"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
 <junction x="17.78" y="10.16"/>
@@ -11031,7 +11031,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="LMP848X" gate="G$1" pin="GND"/>
+<pinref part="LMP8481" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="33.02" y1="10.16" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
 </segment>
@@ -11113,7 +11113,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="LMP848X" gate="G$1" pin="VCC"/>
+<pinref part="LMP8481" gate="G$1" pin="VCC"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="22.86" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="10.16" x2="27.94" y2="0" width="0.1524" layer="91"/>
@@ -11139,7 +11139,7 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="66.04" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="JP7" gate="A" pin="1"/>
 <wire x1="30.48" y1="43.18" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="LMP848X" gate="G$1" pin="REFB"/>
+<pinref part="LMP8481" gate="G$1" pin="REFB"/>
 <wire x1="30.48" y1="48.26" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="43.18" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
 <junction x="30.48" y="43.18"/>
@@ -11165,24 +11165,28 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="55.88" y1="33.02" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="20.32" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="SV1" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="20.32" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="3"/>
+<wire x1="68.58" y1="20.32" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="LMP848X" gate="G$1" pin="REFA"/>
+<pinref part="LMP8481" gate="G$1" pin="REFA"/>
 <pinref part="JP6" gate="A" pin="2"/>
-<wire x1="27.94" y1="33.02" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="33.02" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="40.64" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="48.26" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 <junction x="27.94" y="48.26"/>
+<pinref part="SV1" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="15.24" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
+<junction x="27.94" y="40.64"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="LMP848X" gate="G$1" pin="VOUT"/>
+<pinref part="LMP8481" gate="G$1" pin="VOUT"/>
 <wire x1="33.02" y1="33.02" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -11218,11 +11222,12 @@ EAGLE CAD Libraries on element14&lt;/a&gt;</description>
 <wire x1="12.7" y1="-38.1" x2="12.7" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-25.4" x2="12.7" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-38.1" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="12.7" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="1" pin="1"/>
 <wire x1="10.16" y1="-25.4" x2="12.7" y2="-25.4" width="0.1524" layer="91"/>
 <junction x="12.7" y="-25.4"/>
+<pinref part="SV1" gate="G$1" pin="4"/>
+<wire x1="78.74" y1="12.7" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="12.7" x2="83.82" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
